@@ -26,6 +26,122 @@ body {
     font-family: playfair display, serif;
     background: var(--linen);
     color: var(--dark-charcoal);
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+   font-size: 3rem; 
+   margin-bottom: 1rem;
+   text-align: center;
+   color: var(--soft-white);
+   background-color: var(--midnight-blue);
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+.section {
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--champagne-gold);
+}
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.logo-box img {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1.0rem;
+    font-style: italic;
+}
+
+.nav-bar {
+    background-color: var(--champagne-gold);
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.nav-bar a {
+    color: var(--dark-charcoal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offerings-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.card {
+    background: var(--olive-green);
+    color: var(--soft-white);
+    padding: 1.5rem;
+    border-radius: 8px;
+}    
+
+.basket {
+    background: var(--olive-green);
+    color: var(--soft-white);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.basket ul {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.gallery-grid figure {
+    background: var(--soft-white);
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
 }
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
