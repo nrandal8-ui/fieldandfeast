@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     }
-    
+
 /* ROOT VARIABLES */
 :root {
   --midnight-blue: #1F2A44;
@@ -21,9 +21,12 @@
   --soft-white: #FAF9F6;
 }
 
-
-
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: playfair display, serif;
+    background: var(--linen);
+    color: var(--dark-charcoal);
+}
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
